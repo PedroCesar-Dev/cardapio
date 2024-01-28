@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cardápio</title>
+</head>
+    <body>
+        <label>Quentinhas do grau</label>
+        <select id="dropdown" onchange="changeArray()">
+            <option value="0">Selecione uma opção: </option>
+            <option value="1">Almoço</option>
+            <option value="2">Jantar</option>
+            <option value="3">Bebidas</option>
+            <option value="4">Sobremesas</option>
+        </select>
+        <h6>Passe o mouse no nome para ver a imagem ilustrativa do produto</h6><br>
+        <fieldset id="dynamicContentFieldset"></fieldset>
+
+
+        <script src="./assets/js/dados.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
